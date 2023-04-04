@@ -1,0 +1,694 @@
+#first-line {
+  position: relative;
+  height: 70px;
+  background: #222 !important;
+
+  .left-icons {
+    display: flex;
+
+    .d-1 {
+      padding-left: 50px;
+      padding-top: 15px;
+
+      .d-1-a {
+        font-weight: 500;
+        font-size: 14px;
+        color: #c3c3c3;
+        background: #222;
+        border: none;
+      }
+
+      .d-1-a:hover {
+        opacity: 0.7;
+        transition: all 0.7s;
+      }
+
+      .us {
+        margin-left: 10px;
+        background-color: #ef6c00;
+        width: 32px;
+        height: 18px;
+        position: relative;
+        margin-top: 15px;
+      }
+      .usd {
+        font-size: 12px;
+        color: white;
+        position: absolute;
+        left: -10px;
+        top: -4px;
+      }
+
+      .eu {
+        margin-left: 10px;
+        background-color: #ef6c00;
+        width: 32px;
+        height: 18px;
+        position: relative;
+        margin-top: 25px;
+      }
+
+      .euro {
+        font-size: 12px;
+        color: white;
+        position: absolute;
+        left: -10px;
+        top: -4px;
+      }
+    }
+
+    .d-2 {
+      padding-left: 50px;
+      padding-top: 15px;
+
+      img {
+        padding-right: 2px;
+        width: 25px;
+      }
+
+      .d-2-a {
+        font-weight: 500;
+        font-size: 14px;
+        color: #c3c3c3;
+        background: #222;
+        border: none;
+      }
+
+      .d-2-a:hover {
+        opacity: 0.7;
+        transition: all 0.7s;
+      }
+    }
+  }
+
+  .right-line {
+    position: absolute;
+    right: 50px;
+
+    ul {
+      display: -webkit-box;
+      padding-top: 14px;
+    }
+
+    ul li {
+      padding-left: 30px;
+    }
+
+    ul li i {
+      font-size: 18px;
+    }
+
+    ul li a {
+      font-weight: 500;
+      font-size: 14px;
+      color: #c3c3c3;
+    }
+
+    ul li a:hover {
+      opacity: 0.7;
+      transition: all 0.7s;
+    }
+  }
+}
+
+#secound-line {
+  background-color: #ef6c00;
+  height: 100px;
+
+  .left-icons img {
+    padding-left: 60px;
+    padding-top: 28px;
+    cursor: pointer;
+  }
+
+  input {
+    width: 400px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 80px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border: none;
+  }
+
+  button {
+    width: 110px;
+    height: 40px;
+    margin-top: 30px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    font-size: 14px;
+  }
+
+  .call .ph {
+    margin-left: 70px;
+    margin-top: 31px;
+    font-size: 35px;
+    color: white;
+  }
+
+  .call {
+    position: relative;
+  }
+
+  .call .bask {
+    cursor: pointer;
+    position: absolute;
+    color: white;
+    left: 330px;
+    top: 40px;
+    font-size: 22px;
+
+    .pric {
+      position: absolute;
+      top: 14px;
+      font-size: 14px;
+      font-weight: 600;
+    }
+    sup {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background-color: #000;
+      font-size: 14px;
+      position: absolute;
+      top: -5px;
+      left: 19px;
+
+      .nul {
+        position: absolute;
+        top: 10px;
+        left: 6px;
+      }
+    }
+  }
+
+  .phone span {
+    position: relative;
+    top: -40px;
+    left: 118px;
+    font-size: 12px;
+    color: white;
+    font-weight: 500;
+  }
+
+  .num span {
+    position: relative;
+    top: -45px;
+    left: 115px;
+    font-size: 17px;
+    color: white;
+    font-weight: 800;
+  }
+}
+
+#third-line {
+  .navs {
+    margin-left: 167px;
+
+    .item {
+      z-index: 1 !important;
+    }
+
+    ul li {
+      margin-left: 15px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    ul li:hover {
+      background-color: rgb(230, 230, 230);
+      opacity: 0.7;
+      transition: all 0.7s;
+    }
+  }
+}
+
+#main {
+  .about {
+    display: flex;
+    width: 100%;
+    height: 60px;
+
+    .about-us {
+      p {
+        padding-top: 20px;
+        font-size: 14px;
+        font-weight: bold;
+        padding-left: 200px;
+      }
+    }
+
+    .home-about {
+      padding-top: 20px;
+      display: flex;
+      margin-left: 1100px;
+
+      .home {
+        a {
+          text-decoration: none;
+          color: rgb(127, 126, 126);
+          font-size: 14px;
+          font-weight: bold;
+        }
+      }
+
+      .drop {
+        p {
+          padding-left: 10px;
+          font-size: 14px;
+          font-weight: bold;
+          color: rgb(127, 126, 126);
+        }
+      }
+
+      .about {
+        p {
+          padding-left: 10px;
+          font-size: 14px;
+          font-weight: bold;
+          color: rgb(127, 126, 126);
+        }
+      }
+    }
+  }
+
+  .border {
+    width: 100%;
+  }
+}
+
+
+
+#content {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+
+  .container {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+
+    #billing-details {
+      width: 48%;
+
+      form {
+        h1 {
+          font-size: 37px;
+        }
+
+        .flex {
+          display: flex;
+          justify-content: space-between;
+          width: 100%;
+
+          .group {
+            width: 49%;
+          }
+        }
+
+        .group {
+          position: relative;
+          margin-top: 30px;
+
+          input,
+          textarea {
+            font-size: 14px;
+            display: block;
+            border: none;
+            width: 100%;
+            border-bottom: 1px solid #949494;
+            outline: none;
+
+            &:focus ~ label,
+            &:valid ~ label {
+              top: -8px;
+              font-size: 10px;
+            }
+
+            &:focus ~ .bar::before,
+            &:focus ~ .bar::after {
+              width: 50%;
+            }
+          }
+
+          input {
+            padding: 10px 0 10px 5px;
+          }
+
+          textarea {
+            height: 110px;
+            padding: 10px 0 0 5px;
+            resize: vertical;
+          }
+
+          label {
+            color: #999;
+            font-size: 14px;
+            position: absolute;
+            pointer-events: none;
+            left: 5px;
+            top: 10px;
+            transition: 0.4s ease all;
+            -moz-transition: 0.2s ease all;
+            -webkit-transition: 0.2s ease all;
+          }
+
+          .bar {
+            position: relative;
+            display: block;
+            width: 100%;
+
+            &::before,
+            &::after {
+              content: "";
+              height: 2px;
+              width: 0;
+              bottom: 1px;
+              position: absolute;
+              background: var(--beforeAndAfterBack, #ef6c00);
+              transition: 0.2s ease all;
+              -moz-transition: 0.2s ease all;
+              -webkit-transition: 0.2s ease all;
+              z-index: 1;
+            }
+
+            &::before {
+              left: 50%;
+            }
+
+            &::after {
+              right: 50%;
+            }
+          }
+
+          .validation {
+            font-size: 10px;
+            color: red;
+            transition: 0.4s;
+            opacity: 0;
+          }
+        }
+
+        h2 {
+          font-size: 27px;
+          margin-top: 25px;
+        }
+
+        h4 {
+          font-weight: unset;
+          color: #999;
+        }
+
+        button {
+          width: 160px;
+          height: 50px;
+          color: white;
+          border-radius: 5px;
+          border: none;
+          margin-top: 40px;
+          background-color: #ef6c00;
+          margin-bottom: 20px;
+          font-weight: bold;
+          cursor: pointer;
+        }
+      }
+    }
+
+    #place-order {
+      width: 48%;
+      border: 1px solid #d9d9d9;
+      display: flex;
+      justify-content: center;
+      height: fit-content;
+
+      .container {
+        width: 88%;
+        display: flex;
+        flex-direction: column;
+
+        .title {
+          display: flex;
+          justify-content: space-between;
+          width: 75%;
+          margin-top: 35px;
+        }
+
+        hr {
+          width: 100%;
+          border: none;
+          height: 1px;
+          background-color: #d9d9d9;
+          margin-top: 20px;
+        }
+
+        .products {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          width: 79%;
+
+          .item {
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+
+            h4 {
+              font-weight: unset;
+            }
+          }
+        }
+
+        .products-empty {
+          margin-top: 20px;
+        }
+
+        .subtotal {
+          display: flex;
+          justify-content: space-between;
+          width: 79%;
+          margin-top: 35px;
+
+          h3 {
+            color: red;
+          }
+        }
+
+        .shipping {
+          margin-top: 25px;
+          display: flex;
+          width: 95%;
+          justify-content: space-between;
+          margin-bottom: 25px;
+
+          .shipping-radio {
+            .account,
+            .rate {
+              display: flex;
+              align-items: center;
+
+              input {
+                width: 20px;
+                height: 20px;
+              }
+
+              label {
+                font-size: 13px;
+                color: #999;
+                margin-left: 5px;
+                cursor: pointer;
+              }
+            }
+
+            .rate {
+              margin-top: 10px;
+            }
+          }
+        }
+
+        .total {
+          display: flex;
+          justify-content: space-between;
+          width: 79%;
+          margin-top: 35px;
+          margin-bottom: 20px;
+
+          h3 {
+            color: red;
+          }
+        }
+
+        .payment-radio {
+          margin-top: 20px;
+
+          .bank,
+          .paypal {
+            display: flex;
+            align-items: center;
+
+            input {
+              width: 20px;
+              height: 20px;
+            }
+
+            label {
+              font-size: 13px;
+              color: #999;
+              margin-left: 5px;
+              cursor: pointer;
+            }
+          }
+
+          .paypal {
+            margin-top: 10px;
+          }
+        }
+
+        .deactive {
+          display: none;
+        }
+
+        button {
+          width: 155px;
+          height: 50px;
+          background-color: #ef6c00;
+          border-radius: 5px;
+          border: none;
+          color: white;
+          font-weight: bold;
+          margin-top: 30px;
+          margin-bottom: 30px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+#footer {
+  margin-top: 20px;
+
+  .servicesFooter {
+    a {
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: 600;
+    }
+
+    h6 {
+      font-size: 20px;
+    }
+  }
+
+  .logoSopia {
+    p {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 16px;
+    }
+  }
+
+  .searchFooter {
+    h6 {
+      font-size: 20px;
+      font-family: Roboto, Arial, Helvetica, sans-serif;
+    }
+
+    a {
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    input {
+      width: 260px;
+      height: 50px;
+      border-radius: 5px;
+      border: 1px solid black !important;
+    }
+  }
+
+  .buttonFooter {
+    margin-top: 20px;
+    width: 260px;
+    height: 45px;
+    background-color: #ef6c00;
+
+    .subs {
+      font-size: 15px;
+      color: white;
+    }
+  }
+
+  .contactFooter {
+    h6 {
+      font-size: 20px;
+      line-height: 24px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    i {
+      font-size: 18px;
+    }
+  }
+
+  .iconsf0 {
+    li {
+      width: 33px;
+      height: 33px;
+      border: 1px solid #444;
+      border-radius: 50%;
+      text-align: center;
+      margin-right: 5px;
+    }
+  }
+
+  .circleIcon {
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+    border: 1px solid black;
+    justify-content: space-around;
+  }
+
+  .circleIcon2 {
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+    border: 1px solid black;
+    justify-content: space-around;
+    margin-left: 5px;
+  }
+
+  .circleIcon3 {
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+    border: 1px solid black;
+    justify-content: space-around;
+    margin-left: 5px;
+  }
+
+  .circleIcon4 {
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+    border: 1px solid black;
+    justify-content: space-around;
+    margin-left: 5px;
+  }
+
+  .iconDown {
+    margin-left: 10px;
+    justify-content: space-between;
+
+    i {
+      margin-top: 6px;
+      margin-left: -3px;
+      font-size: 15px;
+    }
+  }
+}

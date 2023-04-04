@@ -1,0 +1,752 @@
+#first-line {
+  position: relative;
+  height: 70px;
+  background: #222 !important;
+}
+
+#first-line .left-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#first-line .left-icons .d-1 {
+  padding-left: 50px;
+  padding-top: 15px;
+}
+
+#first-line .left-icons .d-1 .d-1-a {
+  font-weight: 500;
+  font-size: 14px;
+  color: #c3c3c3;
+  background: #222;
+  border: none;
+}
+
+#first-line .left-icons .d-1 .d-1-a:hover {
+  opacity: 0.7;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+}
+
+#first-line .left-icons .d-1 .us {
+  margin-left: 10px;
+  background-color: #ef6c00;
+  width: 32px;
+  height: 18px;
+  position: relative;
+  margin-top: 15px;
+}
+
+#first-line .left-icons .d-1 .usd {
+  font-size: 12px;
+  color: white;
+  position: absolute;
+  left: -10px;
+  top: -4px;
+}
+
+#first-line .left-icons .d-1 .eu {
+  margin-left: 10px;
+  background-color: #ef6c00;
+  width: 32px;
+  height: 18px;
+  position: relative;
+  margin-top: 25px;
+}
+
+#first-line .left-icons .d-1 .euro {
+  font-size: 12px;
+  color: white;
+  position: absolute;
+  left: -10px;
+  top: -4px;
+}
+
+#first-line .left-icons .d-2 {
+  padding-left: 50px;
+  padding-top: 15px;
+}
+
+#first-line .left-icons .d-2 img {
+  padding-right: 2px;
+  width: 25px;
+}
+
+#first-line .left-icons .d-2 .d-2-a {
+  font-weight: 500;
+  font-size: 14px;
+  color: #c3c3c3;
+  background: #222;
+  border: none;
+}
+
+#first-line .left-icons .d-2 .d-2-a:hover {
+  opacity: 0.7;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+}
+
+#first-line .right-line {
+  position: absolute;
+  right: 50px;
+}
+
+#first-line .right-line ul {
+  display: -webkit-box;
+  padding-top: 14px;
+}
+
+#first-line .right-line ul li {
+  padding-left: 30px;
+}
+
+#first-line .right-line ul li i {
+  font-size: 18px;
+}
+
+#first-line .right-line ul li a {
+  font-weight: 500;
+  font-size: 14px;
+  color: #c3c3c3;
+}
+
+#first-line .right-line ul li a:hover {
+  opacity: 0.7;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+}
+
+#secound-line {
+  background-color: #ef6c00;
+  height: 100px;
+}
+
+#secound-line .left-icons img {
+  padding-left: 60px;
+  padding-top: 28px;
+  cursor: pointer;
+}
+
+#secound-line input {
+  width: 400px;
+  height: 40px;
+  margin-top: 30px;
+  margin-left: 80px;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  border: none;
+}
+
+#secound-line button {
+  width: 110px;
+  height: 40px;
+  margin-top: 30px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  font-size: 14px;
+}
+
+#secound-line .call .ph {
+  margin-left: 70px;
+  margin-top: 31px;
+  font-size: 35px;
+  color: white;
+}
+
+#secound-line .call {
+  position: relative;
+}
+
+#secound-line .call .bask {
+  cursor: pointer;
+  position: absolute;
+  color: white;
+  left: 330px;
+  top: 40px;
+  font-size: 22px;
+}
+
+#secound-line .call .bask .pric {
+  position: absolute;
+  top: 14px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#secound-line .call .bask sup {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #000;
+  font-size: 14px;
+  position: absolute;
+  top: -5px;
+  left: 19px;
+}
+
+#secound-line .call .bask sup .nul {
+  position: absolute;
+  top: 10px;
+  left: 6px;
+}
+
+#secound-line .phone span {
+  position: relative;
+  top: -40px;
+  left: 118px;
+  font-size: 12px;
+  color: white;
+  font-weight: 500;
+}
+
+#secound-line .num span {
+  position: relative;
+  top: -45px;
+  left: 115px;
+  font-size: 17px;
+  color: white;
+  font-weight: 800;
+}
+
+#third-line .navs {
+  margin-left: 167px;
+}
+
+#third-line .navs .item {
+  z-index: 1 !important;
+}
+
+#third-line .navs ul li {
+  margin-left: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#third-line .navs ul li:hover {
+  background-color: #e6e6e6;
+  opacity: 0.7;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+}
+
+#main .about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 60px;
+}
+
+#main .about .about-us p {
+  padding-top: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  padding-left: 200px;
+}
+
+#main .about .home-about {
+  padding-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 1100px;
+}
+
+#main .about .home-about .home a {
+  text-decoration: none;
+  color: #7f7e7e;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#main .about .home-about .drop p {
+  padding-left: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #7f7e7e;
+}
+
+#main .about .home-about .about p {
+  padding-left: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #7f7e7e;
+}
+
+#main .border {
+  width: 100%;
+}
+
+#content {
+  margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#content .container {
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#content .container #billing-details {
+  width: 48%;
+}
+
+#content .container #billing-details form h1 {
+  font-size: 37px;
+}
+
+#content .container #billing-details form .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+#content .container #billing-details form .flex .group {
+  width: 49%;
+}
+
+#content .container #billing-details form .group {
+  position: relative;
+  margin-top: 30px;
+}
+
+#content .container #billing-details form .group input,
+#content .container #billing-details form .group textarea {
+  font-size: 14px;
+  display: block;
+  border: none;
+  width: 100%;
+  border-bottom: 1px solid #949494;
+  outline: none;
+}
+
+#content .container #billing-details form .group input:focus ~ label,
+#content .container #billing-details form .group input:valid ~ label,
+#content .container #billing-details form .group textarea:focus ~ label,
+#content .container #billing-details form .group textarea:valid ~ label {
+  top: -8px;
+  font-size: 10px;
+}
+
+#content .container #billing-details form .group input:focus ~ .bar::before,
+#content .container #billing-details form .group input:focus ~ .bar::after,
+#content .container #billing-details form .group textarea:focus ~ .bar::before,
+#content .container #billing-details form .group textarea:focus ~ .bar::after {
+  width: 50%;
+}
+
+#content .container #billing-details form .group input {
+  padding: 10px 0 10px 5px;
+}
+
+#content .container #billing-details form .group textarea {
+  height: 110px;
+  padding: 10px 0 0 5px;
+  resize: vertical;
+}
+
+#content .container #billing-details form .group label {
+  color: #999;
+  font-size: 14px;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 10px;
+  -webkit-transition: 0.4s ease all;
+  transition: 0.4s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+#content .container #billing-details form .group .bar {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+#content .container #billing-details form .group .bar::before, #content .container #billing-details form .group .bar::after {
+  content: "";
+  height: 2px;
+  width: 0;
+  bottom: 1px;
+  position: absolute;
+  background: var(--beforeAndAfterBack, #ef6c00);
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+  z-index: 1;
+}
+
+#content .container #billing-details form .group .bar::before {
+  left: 50%;
+}
+
+#content .container #billing-details form .group .bar::after {
+  right: 50%;
+}
+
+#content .container #billing-details form .group .validation {
+  font-size: 10px;
+  color: red;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  opacity: 0;
+}
+
+#content .container #billing-details form h2 {
+  font-size: 27px;
+  margin-top: 25px;
+}
+
+#content .container #billing-details form h4 {
+  font-weight: unset;
+  color: #999;
+}
+
+#content .container #billing-details form button {
+  width: 160px;
+  height: 50px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  margin-top: 40px;
+  background-color: #ef6c00;
+  margin-bottom: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#content .container #place-order {
+  width: 48%;
+  border: 1px solid #d9d9d9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+#content .container #place-order .container {
+  width: 88%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#content .container #place-order .container .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 75%;
+  margin-top: 35px;
+}
+
+#content .container #place-order .container hr {
+  width: 100%;
+  border: none;
+  height: 1px;
+  background-color: #d9d9d9;
+  margin-top: 20px;
+}
+
+#content .container #place-order .container .products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 79%;
+}
+
+#content .container #place-order .container .products .item {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+#content .container #place-order .container .products .item h4 {
+  font-weight: unset;
+}
+
+#content .container #place-order .container .products-empty {
+  margin-top: 20px;
+}
+
+#content .container #place-order .container .subtotal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 79%;
+  margin-top: 35px;
+}
+
+#content .container #place-order .container .subtotal h3 {
+  color: red;
+}
+
+#content .container #place-order .container .shipping {
+  margin-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 95%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+#content .container #place-order .container .shipping .shipping-radio .account,
+#content .container #place-order .container .shipping .shipping-radio .rate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#content .container #place-order .container .shipping .shipping-radio .account input,
+#content .container #place-order .container .shipping .shipping-radio .rate input {
+  width: 20px;
+  height: 20px;
+}
+
+#content .container #place-order .container .shipping .shipping-radio .account label,
+#content .container #place-order .container .shipping .shipping-radio .rate label {
+  font-size: 13px;
+  color: #999;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+#content .container #place-order .container .shipping .shipping-radio .rate {
+  margin-top: 10px;
+}
+
+#content .container #place-order .container .total {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 79%;
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+
+#content .container #place-order .container .total h3 {
+  color: red;
+}
+
+#content .container #place-order .container .payment-radio {
+  margin-top: 20px;
+}
+
+#content .container #place-order .container .payment-radio .bank,
+#content .container #place-order .container .payment-radio .paypal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#content .container #place-order .container .payment-radio .bank input,
+#content .container #place-order .container .payment-radio .paypal input {
+  width: 20px;
+  height: 20px;
+}
+
+#content .container #place-order .container .payment-radio .bank label,
+#content .container #place-order .container .payment-radio .paypal label {
+  font-size: 13px;
+  color: #999;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+#content .container #place-order .container .payment-radio .paypal {
+  margin-top: 10px;
+}
+
+#content .container #place-order .container .deactive {
+  display: none;
+}
+
+#content .container #place-order .container button {
+  width: 155px;
+  height: 50px;
+  background-color: #ef6c00;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+#footer {
+  margin-top: 20px;
+}
+
+#footer .servicesFooter a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#footer .servicesFooter h6 {
+  font-size: 20px;
+}
+
+#footer .logoSopia p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+#footer .searchFooter h6 {
+  font-size: 20px;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+#footer .searchFooter a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+#footer .searchFooter input {
+  width: 260px;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid black !important;
+}
+
+#footer .buttonFooter {
+  margin-top: 20px;
+  width: 260px;
+  height: 45px;
+  background-color: #ef6c00;
+}
+
+#footer .buttonFooter .subs {
+  font-size: 15px;
+  color: white;
+}
+
+#footer .contactFooter h6 {
+  font-size: 20px;
+  line-height: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#footer .contactFooter i {
+  font-size: 18px;
+}
+
+#footer .iconsf0 li {
+  width: 33px;
+  height: 33px;
+  border: 1px solid #444;
+  border-radius: 50%;
+  text-align: center;
+  margin-right: 5px;
+}
+
+#footer .circleIcon {
+  width: 30px;
+  height: 30px;
+  border-radius: 25px;
+  border: 1px solid black;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#footer .circleIcon2 {
+  width: 30px;
+  height: 30px;
+  border-radius: 25px;
+  border: 1px solid black;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-left: 5px;
+}
+
+#footer .circleIcon3 {
+  width: 30px;
+  height: 30px;
+  border-radius: 25px;
+  border: 1px solid black;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-left: 5px;
+}
+
+#footer .circleIcon4 {
+  width: 30px;
+  height: 30px;
+  border-radius: 25px;
+  border: 1px solid black;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-left: 5px;
+}
+
+#footer .iconDown {
+  margin-left: 10px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#footer .iconDown i {
+  margin-top: 6px;
+  margin-left: -3px;
+  font-size: 15px;
+}
+/*# sourceMappingURL=chechkout.css.map */

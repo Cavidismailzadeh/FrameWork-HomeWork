@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\HomeWork-Sophie-BackToFront.props" />
+</Project>

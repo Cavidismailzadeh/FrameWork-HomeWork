@@ -1,0 +1,615 @@
+#first-line {
+  position: relative;
+  height: 70px;
+  background: #222 !important;
+}
+
+#first-line .left-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#first-line .left-icons .d-1 {
+  padding-left: 50px;
+  padding-top: 15px;
+}
+
+#first-line .left-icons .d-1 .d-1-a {
+  font-weight: 500;
+  font-size: 14px;
+  color: #c3c3c3;
+  background: #222;
+  border: none;
+}
+
+#first-line .left-icons .d-1 .d-1-a:hover {
+  opacity: 0.7;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+}
+
+#first-line .left-icons .d-1 .us {
+  margin-left: 10px;
+  background-color: #ef6c00;
+  width: 32px;
+  height: 18px;
+  position: relative;
+  margin-top: 15px;
+}
+
+#first-line .left-icons .d-1 .usd {
+  font-size: 12px;
+  color: white;
+  position: absolute;
+  left: -10px;
+  top: -4px;
+}
+
+#first-line .left-icons .d-1 .eu {
+  margin-left: 10px;
+  background-color: #ef6c00;
+  width: 32px;
+  height: 18px;
+  position: relative;
+  margin-top: 25px;
+}
+
+#first-line .left-icons .d-1 .euro {
+  font-size: 12px;
+  color: white;
+  position: absolute;
+  left: -10px;
+  top: -4px;
+}
+
+#first-line .left-icons .d-2 {
+  padding-left: 50px;
+  padding-top: 15px;
+}
+
+#first-line .left-icons .d-2 img {
+  padding-right: 2px;
+  width: 25px;
+}
+
+#first-line .left-icons .d-2 .d-2-a {
+  font-weight: 500;
+  font-size: 14px;
+  color: #c3c3c3;
+  background: #222;
+  border: none;
+}
+
+#first-line .left-icons .d-2 .d-2-a:hover {
+  opacity: 0.7;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+}
+
+#first-line .right-line {
+  position: absolute;
+  right: 50px;
+}
+
+#first-line .right-line ul {
+  display: -webkit-box;
+  padding-top: 14px;
+}
+
+#first-line .right-line ul li {
+  padding-left: 30px;
+}
+
+#first-line .right-line ul li i {
+  font-size: 18px;
+}
+
+#first-line .right-line ul li a {
+  font-weight: 500;
+  font-size: 14px;
+  color: #c3c3c3;
+}
+
+#first-line .right-line ul li a:hover {
+  opacity: 0.7;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+}
+
+#secound-line {
+  background-color: #ef6c00;
+  height: 100px;
+}
+
+#secound-line .left-icons img {
+  padding-left: 60px;
+  padding-top: 28px;
+  cursor: pointer;
+}
+
+#secound-line input {
+  width: 400px;
+  height: 40px;
+  margin-top: 30px;
+  margin-left: 80px;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  border: none;
+}
+
+#secound-line button {
+  width: 110px;
+  height: 40px;
+  margin-top: 30px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  font-size: 14px;
+}
+
+#secound-line .call .ph {
+  margin-left: 70px;
+  margin-top: 31px;
+  font-size: 35px;
+  color: white;
+}
+
+#secound-line .call {
+  position: relative;
+}
+
+#secound-line .call .bask {
+  cursor: pointer;
+  position: absolute;
+  color: white;
+  left: 330px;
+  top: 40px;
+  font-size: 22px;
+}
+
+#secound-line .call .bask .pric {
+  position: absolute;
+  top: 14px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#secound-line .call .bask sup {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #000;
+  font-size: 14px;
+  position: absolute;
+  top: -5px;
+  left: 19px;
+}
+
+#secound-line .call .bask sup .nul {
+  position: absolute;
+  top: 10px;
+  left: 6px;
+}
+
+#secound-line .phone span {
+  position: relative;
+  top: -40px;
+  left: 118px;
+  font-size: 12px;
+  color: white;
+  font-weight: 500;
+}
+
+#secound-line .num span {
+  position: relative;
+  top: -45px;
+  left: 115px;
+  font-size: 17px;
+  color: white;
+  font-weight: 800;
+}
+
+#third-line .navs {
+  margin-left: 167px;
+}
+
+#third-line .navs .item {
+  z-index: 1 !important;
+}
+
+#third-line .navs ul li {
+  margin-left: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#third-line .navs ul li:hover {
+  background-color: #e6e6e6;
+  opacity: 0.7;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+}
+
+#main .about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 60px;
+}
+
+#main .about .about-us p {
+  padding-top: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  padding-left: 150px;
+}
+
+#main .about .home-about {
+  padding-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 1100px;
+}
+
+#main .about .home-about .home a {
+  text-decoration: none;
+  color: #7f7e7e;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#main .about .home-about .drop p {
+  padding-left: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #7f7e7e;
+}
+
+#main .about .home-about .about p {
+  padding-left: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #7f7e7e;
+}
+
+#main .border {
+  width: 100%;
+}
+
+.divs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 70px;
+  width: 100%;
+  height: 350px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: relative;
+}
+
+.divs .login {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+
+.divs .login .x1 {
+  width: 500px;
+  height: 2px;
+  background-color: #e6e6e6;
+  position: relative;
+  top: 2px;
+}
+
+.divs .login .x2 {
+  width: 50px;
+  height: 2px;
+  background-color: #222;
+  position: absolute;
+}
+
+.divs html {
+  height: 100%;
+}
+
+.divs body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.divs .login-box {
+  position: absolute;
+  top: 160px;
+  left: 160px;
+  width: 400px;
+  padding: 40px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.divs .login-box h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: black;
+  text-align: center;
+}
+
+.divs .login-box .user-box {
+  position: relative;
+}
+
+.divs .login-box .user-box input {
+  width: 500px;
+  padding: 10px 0;
+  font-size: 16px;
+  color: black;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #eeeeee;
+  outline: none;
+}
+
+.divs .login-box .user-box label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: black;
+  pointer-events: none;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.divs .login-box .user-box input:focus ~ label,
+.divs .login-box .user-box input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #000000;
+  font-size: 12px;
+}
+
+.divs .butn button {
+  width: 110px;
+  height: 50px;
+  background-color: #ef6c00 !important;
+  font-size: 21px;
+  color: white !important;
+  font-weight: 700;
+  position: absolute;
+  top: 230px;
+}
+
+.divs .register {
+  position: absolute;
+  top: 10px;
+  left: 600px;
+}
+
+.divs .register .x1 {
+  width: 500px;
+  height: 2px;
+  background-color: #e6e6e6;
+  position: relative;
+  top: 2px;
+}
+
+.divs .register .x2 {
+  width: 50px;
+  height: 2px;
+  background-color: #222;
+  position: absolute;
+}
+
+.divs .register .tex {
+  position: absolute;
+  top: 85px;
+  font-size: 13px;
+}
+
+.divs .register .login-box {
+  position: absolute;
+  top: 160px;
+  left: 160px;
+  width: 400px;
+  padding: 40px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.divs .register .login-box h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: black;
+  text-align: center;
+}
+
+.divs .register .login-box .user-box {
+  position: relative;
+}
+
+.divs .register .login-box .user-box input {
+  width: 500px;
+  padding: 10px 0;
+  font-size: 16px;
+  color: black;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #eeeeee;
+  outline: none;
+}
+
+.divs .register .login-box .user-box label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: black;
+  pointer-events: none;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.divs .register .login-box .user-box input:focus ~ label,
+.divs .register .login-box .user-box input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #000000;
+  font-size: 12px;
+}
+
+.divs .register .user-box {
+  top: 15px;
+}
+
+.divs .register .tex2 {
+  position: absolute;
+  width: 500px;
+  top: 210px;
+  font-size: 13px;
+}
+
+.divs .register .butn button {
+  width: 110px;
+  height: 50px;
+  background-color: #ef6c00 !important;
+  font-size: 16px;
+  color: white !important;
+  font-weight: 700;
+  position: absolute;
+  top: 270px;
+}
+
+#footer {
+  margin-top: 80px;
+}
+
+#footer .servicesFooter a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#footer .servicesFooter h6 {
+  font-size: 20px;
+}
+
+#footer .logoSopia p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+#footer .searchFooter h6 {
+  font-size: 20px;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+#footer .searchFooter a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+#footer .searchFooter input {
+  width: 260px;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid black !important;
+}
+
+#footer .buttonFooter {
+  margin-top: 20px;
+  width: 260px;
+  height: 45px;
+  background-color: #ef6c00;
+}
+
+#footer .buttonFooter .subs {
+  font-size: 15px;
+  color: white;
+}
+
+#footer .contactFooter h6 {
+  font-size: 20px;
+  line-height: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#footer .contactFooter i {
+  font-size: 18px;
+}
+
+#footer .iconsf0 li {
+  width: 33px;
+  height: 33px;
+  border: 1px solid #444;
+  border-radius: 50%;
+  text-align: center;
+  margin-right: 5px;
+}
+
+#footer .circleIcon {
+  width: 30px;
+  height: 30px;
+  border-radius: 25px;
+  border: 1px solid black;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#footer .circleIcon2 {
+  width: 30px;
+  height: 30px;
+  border-radius: 25px;
+  border: 1px solid black;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-left: 5px;
+}
+
+#footer .circleIcon3 {
+  width: 30px;
+  height: 30px;
+  border-radius: 25px;
+  border: 1px solid black;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-left: 5px;
+}
+
+#footer .circleIcon4 {
+  width: 30px;
+  height: 30px;
+  border-radius: 25px;
+  border: 1px solid black;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-left: 5px;
+}
+
+#footer .iconDown {
+  margin-left: 10px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#footer .iconDown i {
+  margin-top: 6px;
+  margin-left: -3px;
+  font-size: 15px;
+}
+/*# sourceMappingURL=account.css.map */

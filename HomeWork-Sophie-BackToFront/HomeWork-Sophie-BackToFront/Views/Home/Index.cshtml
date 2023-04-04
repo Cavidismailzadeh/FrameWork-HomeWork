@@ -1,0 +1,1213 @@
+﻿@model List<Slider>
+
+@{
+    ViewData["Title"] = "Home";
+}
+
+
+    <main>
+        <div class="div">
+            <div class="swiper mySwiper slider">
+                <div class="swiper-wrapper">
+
+                    @foreach (var item in Model)
+                {
+                    <div class="swiper-slide">
+                        <img src="./assets/img/@item.Image" alt="">
+                        <h2>@item.Title</h2>
+                        <p>@item.Description</p>
+                        <div class="btn">
+                            <span>SHOP NOW</span>
+                        </div>
+                    </div>
+                }
+                    
+               
+                  
+                
+                
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+
+
+
+        <div class="container">
+
+            <div class="items">
+                <div class="item1">
+                    <i class="fa-solid fa-gift"></i>
+                    <p>BONUS PLUS</p>
+                    <span>Get a bonus plus for buying more that three products</span>
+                    <div class="xett"></div>
+                </div>
+
+                <div class="item2">
+                    <i class="fa-solid fa-truck"></i>
+                    <p>FREE SHIPPING</p>
+                    <span>Free shipping on all orders over $99</span>
+                    <div class="xett"></div>
+                </div>
+
+
+                <div class="item3">
+                    <i class="fa-solid fa-gift"></i>
+                    <p>MONEY BACK GUARANTEE</p>
+                    <span>100% money back guarantee</span>
+                    <div class="xett"></div>
+                </div>
+
+
+                <div class="item4">
+                    <i class="fa-solid fa-gift"></i>
+                    <p>ONLINE SUPPORT 24/7</p>
+                    <span>Call us: 02 3555 65454 55</span>
+                    <div class="xett"></div>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+        <main class="main">
+            <div class="container">
+                <div class="tab">
+                    <div class="tab-menu">
+                        <button class="tab-menu-link is-active" data-content="item-1">
+                            <span data-title="item-1">FEATURED PRODUCTS</span>
+                        </button>
+                        <button class="tab-menu-link " data-content="item-2">
+                            <span data-title="item-2">LATEST PRODUCTS</span>
+                        </button>
+                        <button class="tab-menu-link" data-content="item-3">
+                            <span data-title="item-3">ON SALE PRODUCTS</span>
+                        </button>
+                    </div>
+
+
+
+                    <div class="tab-bar">
+                        <div class="tab-bar-content is-active" id="item-1">
+                            <div class="texts">
+                                <div class="products">
+                                    <div class="swiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="card" style="width: 13rem;">
+                                                    <img src="./assets/img/products1.png" class="card-img-top"
+                                                        alt="...">
+                                                    <div class="icons">
+                                                        <ul class="icon1">
+                                                            <li class="li1"><i class="fa-regular fa-heart"></i></li>
+                                                            <li class="li1"><i class="fa-solid fa-eye"></i></li>
+                                                            <li class="li1"><i class="fa-solid fa-arrows-rotate"></i>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="card-body card-item1">
+                                                        <span class="span1">Headphones</span>
+                                                        <h3>ONTEC E Headset</h3>
+                                                        <ul>
+                                                            <li><i class="fa-solid fa-star"></i></li>
+                                                            <li><i class="fa-solid fa-star"></i></li>
+                                                            <li><i class="fa-solid fa-star"></i></li>
+                                                            <li><i class="fa-solid fa-star"></i></li>
+                                                            <li><i class="fa-solid fa-star"></i></li>
+                                                        </ul>
+                                                        <span class="span2">$175.00</span>
+                                                        <div class="divs">
+                                                            <p>ADD TO CART</p>
+                                                            <i class="fa-solid fa-cart-shopping"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="swiper-slide">
+                                                <div class="card" style="width: 13rem;">
+                                                    <img src="./assets/img/products2.png" class="card-img-top"
+                                                        alt="...">
+                                                    <div class="icons">
+                                                        <ul class="icon1">
+                                                            <li class="li1"><i class="fa-regular fa-heart"></i></li>
+                                                            <li class="li1"><i class="fa-solid fa-eye"></i></li>
+                                                            <li class="li1"><i class="fa-solid fa-arrows-rotate"></i>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="card-body card-item1">
+                                                        <span class="span1">Headphones</span>
+                                                        <h3>ONTEC E Headset</h3>
+                                                        <ul>
+                                                            <li><i class="fa-solid fa-star"></i></li>
+                                                            <li><i class="fa-solid fa-star"></i></li>
+                                                            <li><i class="fa-solid fa-star"></i></li>
+                                                            <li><i class="fa-solid fa-star"></i></li>
+                                                            <li><i class="fa-solid fa-star"></i></li>
+                                                        </ul>
+                                                        <span class="span2">$175.00</span>
+                                                        <div class="divs">
+                                                            <p>ADD TO CART</p>
+                                                            <i class="fa-solid fa-cart-shopping"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="swiper-slide">
+                                                <div class="card" style="width: 13rem;">
+                                                    <img src="./assets/img/products3.png" class="card-img-top"
+                                                        alt="...">
+                                                    <div class="icons">
+                                                        <ul class="icon1">
+                                                            <li class="li1"><i class="fa-regular fa-heart"></i></li>
+                                                            <li class="li1"><i class="fa-solid fa-eye"></i></li>
+                                                            <li class="li1"><i class="fa-solid fa-arrows-rotate"></i>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="card-body card-item1">
+                                                        <span class="span1">Headphones</span>
+                                                        <h3>ONTEC E Headset</h3>
+                                                        <ul>
+                                                            <li><i class="fa-solid fa-star"></i></li>
+                                                            <li><i class="fa-solid fa-star"></i></li>
+                                                            <li><i class="fa-solid fa-star"></i></li>
+                                                            <li><i class="fa-solid fa-star"></i></li>
+                                                            <li><i class="fa-solid fa-star"></i></li>
+                                                        </ul>
+                                                        <span class="span2">$175.00</span>
+                                                        <div class="divs">
+                                                            <p>ADD TO CART</p>
+                                                            <i class="fa-solid fa-cart-shopping"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="swiper-slide">
+                                                <div class="card" style="width: 13rem;">
+                                                    <img src="./assets/img/products4.png" class="card-img-top"
+                                                        alt="...">
+                                                    <div class="icons">
+                                                        <ul class="icon1">
+                                                            <li class="li1"><i class="fa-regular fa-heart"></i></li>
+                                                            <li class="li1"><i class="fa-solid fa-eye"></i></li>
+                                                            <li class="li1"><i class="fa-solid fa-arrows-rotate"></i>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="card-body card-item1">
+                                                        <span class="span1">Headphones</span>
+                                                        <h3>ONTEC E Headset</h3>
+                                                        <ul>
+                                                            <li><i class="fa-solid fa-star"></i></li>
+                                                            <li><i class="fa-solid fa-star"></i></li>
+                                                            <li><i class="fa-solid fa-star"></i></li>
+                                                            <li><i class="fa-solid fa-star"></i></li>
+                                                            <li><i class="fa-solid fa-star"></i></li>
+                                                        </ul>
+                                                        <span class="span2">$175.00</span>
+                                                        <div class="divs">
+                                                            <p>ADD TO CART</p>
+                                                            <i class="fa-solid fa-cart-shopping"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="swiper-slide">
+                                                <div class="card" style="width: 13rem;">
+                                                    <img src="./assets/img/products5.png" class="card-img-top"
+                                                        alt="...">
+                                                    <div class="icons">
+                                                        <ul class="icon1">
+                                                            <li class="li1"><i class="fa-regular fa-heart"></i></li>
+                                                            <li class="li1"><i class="fa-solid fa-eye"></i></li>
+                                                            <li class="li1"><i class="fa-solid fa-arrows-rotate"></i>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="card-body card-item1">
+                                                        <span class="span1">Headphones</span>
+                                                        <h3>ONTEC E Headset</h3>
+                                                        <ul>
+                                                            <li><i class="fa-solid fa-star"></i></li>
+                                                            <li><i class="fa-solid fa-star"></i></li>
+                                                            <li><i class="fa-solid fa-star"></i></li>
+                                                            <li><i class="fa-solid fa-star"></i></li>
+                                                            <li><i class="fa-solid fa-star"></i></li>
+                                                        </ul>
+                                                        <span class="span2">$175.00</span>
+                                                        <div class="divs">
+                                                            <p>ADD TO CART</p>
+                                                            <i class="fa-solid fa-cart-shopping"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="swiper-slide">
+                                                <div class="card" style="width: 13rem;">
+                                                    <img src="./assets/img/products6.png" class="card-img-top"
+                                                        alt="...">
+                                                    <div class="icons">
+                                                        <ul class="icon1">
+                                                            <li class="li1"><i class="fa-regular fa-heart"></i></li>
+                                                            <li class="li1"><i class="fa-solid fa-eye"></i></li>
+                                                            <li class="li1"><i class="fa-solid fa-arrows-rotate"></i>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="card-body card-item1">
+                                                        <span class="span1">Headphones</span>
+                                                        <h3>ONTEC E Headset</h3>
+                                                        <ul>
+                                                            <li><i class="fa-solid fa-star"></i></li>
+                                                            <li><i class="fa-solid fa-star"></i></li>
+                                                            <li><i class="fa-solid fa-star"></i></li>
+                                                            <li><i class="fa-solid fa-star"></i></li>
+                                                            <li><i class="fa-solid fa-star"></i></li>
+                                                        </ul>
+                                                        <span class="span2">$175.00</span>
+                                                        <div class="divs">
+                                                            <p>ADD TO CART</p>
+                                                            <i class="fa-solid fa-cart-shopping"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="swiper-slide">
+                                                <div class="card" style="width: 13rem;">
+                                                    <img src="./assets/img/products7.png" class="card-img-top"
+                                                        alt="...">
+                                                    <div class="icons">
+                                                        <ul class="icon1">
+                                                            <li class="li1"><i class="fa-regular fa-heart"></i></li>
+                                                            <li class="li1"><i class="fa-solid fa-eye"></i></li>
+                                                            <li class="li1"><i class="fa-solid fa-arrows-rotate"></i>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="card-body card-item1">
+                                                        <span class="span1">Headphones</span>
+                                                        <h3>ONTEC E Headset</h3>
+                                                        <ul>
+                                                            <li><i class="fa-solid fa-star"></i></li>
+                                                            <li><i class="fa-solid fa-star"></i></li>
+                                                            <li><i class="fa-solid fa-star"></i></li>
+                                                            <li><i class="fa-solid fa-star"></i></li>
+                                                            <li><i class="fa-solid fa-star"></i></li>
+                                                        </ul>
+                                                        <span class="span2">$175.00</span>
+                                                        <div class="divs">
+                                                            <p>ADD TO CART</p>
+                                                            <i class="fa-solid fa-cart-shopping"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="swiper-slide">
+                                                <div class="card" style="width: 13rem;">
+                                                    <img src="./assets/img/products8.png" class="card-img-top"
+                                                        alt="...">
+                                                    <div class="icons">
+                                                        <ul class="icon1">
+                                                            <li class="li1"><i class="fa-regular fa-heart"></i></li>
+                                                            <li class="li1"><i class="fa-solid fa-eye"></i></li>
+                                                            <li class="li1"><i class="fa-solid fa-arrows-rotate"></i>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="card-body card-item1">
+                                                        <span class="span1">Headphones</span>
+                                                        <h3>ONTEC E Headset</h3>
+                                                        <ul>
+                                                            <li><i class="fa-solid fa-star"></i></li>
+                                                            <li><i class="fa-solid fa-star"></i></li>
+                                                            <li><i class="fa-solid fa-star"></i></li>
+                                                            <li><i class="fa-solid fa-star"></i></li>
+                                                            <li><i class="fa-solid fa-star"></i></li>
+                                                        </ul>
+                                                        <span class="span2">$175.00</span>
+                                                        <div class="divs">
+                                                            <p>ADD TO CART</p>
+                                                            <i class="fa-solid fa-cart-shopping"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-button-next"></div>
+                                        <div class="swiper-button-prev"></div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="tab-bar-content" id="item-2">
+                            <div class="texts">
+                                <div class="swiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="card" style="width: 13rem;">
+                                                <img src="./assets/img/products1.png" class="card-img-top" alt="...">
+                                                <div class="icons">
+                                                    <ul class="icon1">
+                                                        <li class="li1"><i class="fa-regular fa-heart"></i></li>
+                                                        <li class="li1"><i class="fa-solid fa-eye"></i></li>
+                                                        <li class="li1"><i class="fa-solid fa-arrows-rotate"></i>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="card-body card-item1">
+                                                    <span class="span1">Headphones</span>
+                                                    <h3>ONTEC E Headset</h3>
+                                                    <ul>
+                                                        <li><i class="fa-solid fa-star"></i></li>
+                                                        <li><i class="fa-solid fa-star"></i></li>
+                                                        <li><i class="fa-solid fa-star"></i></li>
+                                                        <li><i class="fa-solid fa-star"></i></li>
+                                                        <li><i class="fa-solid fa-star"></i></li>
+                                                    </ul>
+                                                    <span class="span2">$175.00</span>
+                                                    <div class="divs">
+                                                        <p>ADD TO CART</p>
+                                                        <i class="fa-solid fa-cart-shopping"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="swiper-slide">
+                                            <div class="card" style="width: 13rem;">
+                                                <img src="./assets/img/products2.png" class="card-img-top" alt="...">
+                                                <div class="icons">
+                                                    <ul class="icon1">
+                                                        <li class="li1"><i class="fa-regular fa-heart"></i></li>
+                                                        <li class="li1"><i class="fa-solid fa-eye"></i></li>
+                                                        <li class="li1"><i class="fa-solid fa-arrows-rotate"></i>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="card-body card-item1">
+                                                    <span class="span1">Headphones</span>
+                                                    <h3>ONTEC E Headset</h3>
+                                                    <ul>
+                                                        <li><i class="fa-solid fa-star"></i></li>
+                                                        <li><i class="fa-solid fa-star"></i></li>
+                                                        <li><i class="fa-solid fa-star"></i></li>
+                                                        <li><i class="fa-solid fa-star"></i></li>
+                                                        <li><i class="fa-solid fa-star"></i></li>
+                                                    </ul>
+                                                    <span class="span2">$175.00</span>
+                                                    <div class="divs">
+                                                        <p>ADD TO CART</p>
+                                                        <i class="fa-solid fa-cart-shopping"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="swiper-slide">
+                                            <div class="card" style="width: 13rem;">
+                                                <img src="./assets/img/products3.png" class="card-img-top" alt="...">
+                                                <div class="icons">
+                                                    <ul class="icon1">
+                                                        <li class="li1"><i class="fa-regular fa-heart"></i></li>
+                                                        <li class="li1"><i class="fa-solid fa-eye"></i></li>
+                                                        <li class="li1"><i class="fa-solid fa-arrows-rotate"></i>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="card-body card-item1">
+                                                    <span class="span1">Headphones</span>
+                                                    <h3>ONTEC E Headset</h3>
+                                                    <ul>
+                                                        <li><i class="fa-solid fa-star"></i></li>
+                                                        <li><i class="fa-solid fa-star"></i></li>
+                                                        <li><i class="fa-solid fa-star"></i></li>
+                                                        <li><i class="fa-solid fa-star"></i></li>
+                                                        <li><i class="fa-solid fa-star"></i></li>
+                                                    </ul>
+                                                    <span class="span2">$175.00</span>
+                                                    <div class="divs">
+                                                        <p>ADD TO CART</p>
+                                                        <i class="fa-solid fa-cart-shopping"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="swiper-slide">
+                                            <div class="card" style="width: 13rem;">
+                                                <img src="./assets/img/products4.png" class="card-img-top" alt="...">
+                                                <div class="icons">
+                                                    <ul class="icon1">
+                                                        <li class="li1"><i class="fa-regular fa-heart"></i></li>
+                                                        <li class="li1"><i class="fa-solid fa-eye"></i></li>
+                                                        <li class="li1"><i class="fa-solid fa-arrows-rotate"></i>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="card-body card-item1">
+                                                    <span class="span1">Headphones</span>
+                                                    <h3>ONTEC E Headset</h3>
+                                                    <ul>
+                                                        <li><i class="fa-solid fa-star"></i></li>
+                                                        <li><i class="fa-solid fa-star"></i></li>
+                                                        <li><i class="fa-solid fa-star"></i></li>
+                                                        <li><i class="fa-solid fa-star"></i></li>
+                                                        <li><i class="fa-solid fa-star"></i></li>
+                                                    </ul>
+                                                    <span class="span2">$175.00</span>
+                                                    <div class="divs">
+                                                        <p>ADD TO CART</p>
+                                                        <i class="fa-solid fa-cart-shopping"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="swiper-slide">
+                                            <div class="card" style="width: 13rem;">
+                                                <img src="./assets/img/products5.png" class="card-img-top" alt="...">
+                                                <div class="icons">
+                                                    <ul class="icon1">
+                                                        <li class="li1"><i class="fa-regular fa-heart"></i></li>
+                                                        <li class="li1"><i class="fa-solid fa-eye"></i></li>
+                                                        <li class="li1"><i class="fa-solid fa-arrows-rotate"></i>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="card-body card-item1">
+                                                    <span class="span1">Headphones</span>
+                                                    <h3>ONTEC E Headset</h3>
+                                                    <ul>
+                                                        <li><i class="fa-solid fa-star"></i></li>
+                                                        <li><i class="fa-solid fa-star"></i></li>
+                                                        <li><i class="fa-solid fa-star"></i></li>
+                                                        <li><i class="fa-solid fa-star"></i></li>
+                                                        <li><i class="fa-solid fa-star"></i></li>
+                                                    </ul>
+                                                    <span class="span2">$175.00</span>
+                                                    <div class="divs">
+                                                        <p>ADD TO CART</p>
+                                                        <i class="fa-solid fa-cart-shopping"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="swiper-slide">
+                                            <div class="card" style="width: 13rem;">
+                                                <img src="./assets/img/products6.png" class="card-img-top" alt="...">
+                                                <div class="icons">
+                                                    <ul class="icon1">
+                                                        <li class="li1"><i class="fa-regular fa-heart"></i></li>
+                                                        <li class="li1"><i class="fa-solid fa-eye"></i></li>
+                                                        <li class="li1"><i class="fa-solid fa-arrows-rotate"></i>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="card-body card-item1">
+                                                    <span class="span1">Headphones</span>
+                                                    <h3>ONTEC E Headset</h3>
+                                                    <ul>
+                                                        <li><i class="fa-solid fa-star"></i></li>
+                                                        <li><i class="fa-solid fa-star"></i></li>
+                                                        <li><i class="fa-solid fa-star"></i></li>
+                                                        <li><i class="fa-solid fa-star"></i></li>
+                                                        <li><i class="fa-solid fa-star"></i></li>
+                                                    </ul>
+                                                    <span class="span2">$175.00</span>
+                                                    <div class="divs">
+                                                        <p>ADD TO CART</p>
+                                                        <i class="fa-solid fa-cart-shopping"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="swiper-slide">
+                                            <div class="card" style="width: 13rem;">
+                                                <img src="./assets/img/products7.png" class="card-img-top" alt="...">
+                                                <div class="icons">
+                                                    <ul class="icon1">
+                                                        <li class="li1"><i class="fa-regular fa-heart"></i></li>
+                                                        <li class="li1"><i class="fa-solid fa-eye"></i></li>
+                                                        <li class="li1"><i class="fa-solid fa-arrows-rotate"></i>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="card-body card-item1">
+                                                    <span class="span1">Headphones</span>
+                                                    <h3>ONTEC E Headset</h3>
+                                                    <ul>
+                                                        <li><i class="fa-solid fa-star"></i></li>
+                                                        <li><i class="fa-solid fa-star"></i></li>
+                                                        <li><i class="fa-solid fa-star"></i></li>
+                                                        <li><i class="fa-solid fa-star"></i></li>
+                                                        <li><i class="fa-solid fa-star"></i></li>
+                                                    </ul>
+                                                    <span class="span2">$175.00</span>
+                                                    <div class="divs">
+                                                        <p>ADD TO CART</p>
+                                                        <i class="fa-solid fa-cart-shopping"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="swiper-slide">
+                                            <div class="card" style="width: 13rem;">
+                                                <img src="./assets/img/products8.png" class="card-img-top" alt="...">
+                                                <div class="icons">
+                                                    <ul class="icon1">
+                                                        <li class="li1"><i class="fa-regular fa-heart"></i></li>
+                                                        <li class="li1"><i class="fa-solid fa-eye"></i></li>
+                                                        <li class="li1"><i class="fa-solid fa-arrows-rotate"></i>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="card-body card-item1">
+                                                    <span class="span1">Headphones</span>
+                                                    <h3>ONTEC E Headset</h3>
+                                                    <ul>
+                                                        <li><i class="fa-solid fa-star"></i></li>
+                                                        <li><i class="fa-solid fa-star"></i></li>
+                                                        <li><i class="fa-solid fa-star"></i></li>
+                                                        <li><i class="fa-solid fa-star"></i></li>
+                                                        <li><i class="fa-solid fa-star"></i></li>
+                                                    </ul>
+                                                    <span class="span2">$175.00</span>
+                                                    <div class="divs">
+                                                        <p>ADD TO CART</p>
+                                                        <i class="fa-solid fa-cart-shopping"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="swiper-button-next"></div>
+                                    <div class="swiper-button-prev"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+                    <div class="tab-bar-content" id="item-3">
+                        <div class="texts">
+                            <div class="swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="card" style="width: 13rem;">
+                                            <img src="./assets/img/products1.png" class="card-img-top" alt="...">
+                                            <div class="icons">
+                                                <ul class="icon1">
+                                                    <li class="li1"><i class="fa-regular fa-heart"></i></li>
+                                                    <li class="li1"><i class="fa-solid fa-eye"></i></li>
+                                                    <li class="li1"><i class="fa-solid fa-arrows-rotate"></i>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="card-body card-item1">
+                                                <span class="span1">Headphones</span>
+                                                <h3>ONTEC E Headset</h3>
+                                                <ul>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                </ul>
+                                                <span class="span2">$175.00</span>
+                                                <div class="divs">
+                                                    <p>ADD TO CART</p>
+                                                    <i class="fa-solid fa-cart-shopping"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="swiper-slide">
+                                        <div class="card" style="width: 13rem;">
+                                            <img src="./assets/img/products2.png" class="card-img-top" alt="...">
+                                            <div class="icons">
+                                                <ul class="icon1">
+                                                    <li class="li1"><i class="fa-regular fa-heart"></i></li>
+                                                    <li class="li1"><i class="fa-solid fa-eye"></i></li>
+                                                    <li class="li1"><i class="fa-solid fa-arrows-rotate"></i>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="card-body card-item1">
+                                                <span class="span1">Headphones</span>
+                                                <h3>ONTEC E Headset</h3>
+                                                <ul>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                </ul>
+                                                <span class="span2">$175.00</span>
+                                                <div class="divs">
+                                                    <p>ADD TO CART</p>
+                                                    <i class="fa-solid fa-cart-shopping"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="swiper-slide">
+                                        <div class="card" style="width: 13rem;">
+                                            <img src="./assets/img/products3.png" class="card-img-top" alt="...">
+                                            <div class="icons">
+                                                <ul class="icon1">
+                                                    <li class="li1"><i class="fa-regular fa-heart"></i></li>
+                                                    <li class="li1"><i class="fa-solid fa-eye"></i></li>
+                                                    <li class="li1"><i class="fa-solid fa-arrows-rotate"></i>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="card-body card-item1">
+                                                <span class="span1">Headphones</span>
+                                                <h3>ONTEC E Headset</h3>
+                                                <ul>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                </ul>
+                                                <span class="span2">$175.00</span>
+                                                <div class="divs">
+                                                    <p>ADD TO CART</p>
+                                                    <i class="fa-solid fa-cart-shopping"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="swiper-slide">
+                                        <div class="card" style="width: 13rem;">
+                                            <img src="./assets/img/products4.png" class="card-img-top" alt="...">
+                                            <div class="icons">
+                                                <ul class="icon1">
+                                                    <li class="li1"><i class="fa-regular fa-heart"></i></li>
+                                                    <li class="li1"><i class="fa-solid fa-eye"></i></li>
+                                                    <li class="li1"><i class="fa-solid fa-arrows-rotate"></i>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="card-body card-item1">
+                                                <span class="span1">Headphones</span>
+                                                <h3>ONTEC E Headset</h3>
+                                                <ul>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                </ul>
+                                                <span class="span2">$175.00</span>
+                                                <div class="divs">
+                                                    <p>ADD TO CART</p>
+                                                    <i class="fa-solid fa-cart-shopping"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="swiper-slide">
+                                        <div class="card" style="width: 13rem;">
+                                            <img src="./assets/img/products5.png" class="card-img-top" alt="...">
+                                            <div class="icons">
+                                                <ul class="icon1">
+                                                    <li class="li1"><i class="fa-regular fa-heart"></i></li>
+                                                    <li class="li1"><i class="fa-solid fa-eye"></i></li>
+                                                    <li class="li1"><i class="fa-solid fa-arrows-rotate"></i>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="card-body card-item1">
+                                                <span class="span1">Headphones</span>
+                                                <h3>ONTEC E Headset</h3>
+                                                <ul>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                </ul>
+                                                <span class="span2">$175.00</span>
+                                                <div class="divs">
+                                                    <p>ADD TO CART</p>
+                                                    <i class="fa-solid fa-cart-shopping"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="swiper-slide">
+                                        <div class="card" style="width: 13rem;">
+                                            <img src="./assets/img/products6.png" class="card-img-top" alt="...">
+                                            <div class="icons">
+                                                <ul class="icon1">
+                                                    <li class="li1"><i class="fa-regular fa-heart"></i></li>
+                                                    <li class="li1"><i class="fa-solid fa-eye"></i></li>
+                                                    <li class="li1"><i class="fa-solid fa-arrows-rotate"></i>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="card-body card-item1">
+                                                <span class="span1">Headphones</span>
+                                                <h3>ONTEC E Headset</h3>
+                                                <ul>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                </ul>
+                                                <span class="span2">$175.00</span>
+                                                <div class="divs">
+                                                    <p>ADD TO CART</p>
+                                                    <i class="fa-solid fa-cart-shopping"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="swiper-slide">
+                                        <div class="card" style="width: 13rem;">
+                                            <img src="./assets/img/products7.png" class="card-img-top" alt="...">
+                                            <div class="icons">
+                                                <ul class="icon1">
+                                                    <li class="li1"><i class="fa-regular fa-heart"></i></li>
+                                                    <li class="li1"><i class="fa-solid fa-eye"></i></li>
+                                                    <li class="li1"><i class="fa-solid fa-arrows-rotate"></i>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="card-body card-item1">
+                                                <span class="span1">Headphones</span>
+                                                <h3>ONTEC E Headset</h3>
+                                                <ul>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                </ul>
+                                                <span class="span2">$175.00</span>
+                                                <div class="divs">
+                                                    <p>ADD TO CART</p>
+                                                    <i class="fa-solid fa-cart-shopping"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="swiper-slide">
+                                        <div class="card" style="width: 13rem;">
+                                            <img src="./assets/img/products8.png" class="card-img-top" alt="...">
+                                            <div class="icons">
+                                                <ul class="icon1">
+                                                    <li class="li1"><i class="fa-regular fa-heart"></i></li>
+                                                    <li class="li1"><i class="fa-solid fa-eye"></i></li>
+                                                    <li class="li1"><i class="fa-solid fa-arrows-rotate"></i>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="card-body card-item1">
+                                                <span class="span1">Headphones</span>
+                                                <h3>ONTEC E Headset</h3>
+                                                <ul>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                </ul>
+                                                <span class="span2">$175.00</span>
+                                                <div class="divs">
+                                                    <p>ADD TO CART</p>
+                                                    <i class="fa-solid fa-cart-shopping"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            </div>
+            </div>
+        </main>
+
+
+        <div class="container">
+            <section id="advertising-banner">
+                <div class="container">
+                    <div class="banners mt-5">
+                        <div class="left-banner">
+                            <div class="info-tech">
+                                <div class="text-box">
+                                    <h4>NEW LAPTOPS</h4>
+                                    <p>Sale up to 30% off all products in the new collection.</p>
+                                    <a href="">Shop Now</a>
+                                </div>
+                            </div>
+                            <div class="banner-img">
+                                <div class="laptop-img">
+                                    <img src="./assets/img/laptops.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="right-banner">
+                            <div class="up">
+                                <div class="right-up">
+                                    <div class="text">
+                                        <h4>Tablets, Smartphones and more</h4>
+                                        <p>Sale up to 30%.</p>
+                                        <a href="">Shop Now</a>
+                                    </div>
+                                </div>
+                                <div class="left-up">
+
+                                    <div class="text">
+                                        <h4>New Cameras Collection</h4>
+                                        <p>Sale up to 30%.</p>
+                                        <a href="">Shop Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="down">
+                                <div class="text">
+                                    <h4>
+                                        Cach Big Offers on Cameras
+                                    </h4>
+                                    <p>Sale up to 20%.</p>
+                                    <a href="">
+                                        <button type="button" class="btn btn-warning">$66.99</button>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="container">
+            <section id="featured-product">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="carts">
+                                <div class="cart1">
+                                    <h4>Featured Products</h4>
+                                    <div class="img-text">
+
+                                        <div class="img">
+                                            <a href=""><img src="./assets/img/products1.png" alt=""></a>
+
+                                        </div>
+                                        <div class="texts">
+                                            <div class="text1">
+                                                <a href="">
+                                                    <p>ONTEC E Headset</p>
+                                                </a>
+
+                                            </div>
+                                            <div class="icons">
+                                                <i class="fa-solid fa-star text-warning"></i>
+                                                <i class="fa-solid fa-star text-warning"></i>
+                                                <i class="fa-solid fa-star text-warning"></i>
+                                                <i class="fa-solid fa-star text-warning"></i>
+                                                <i class="fa-solid fa-star text-warning"></i>
+                                            </div>
+                                            <div class="text2">
+                                                <p>175.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="img-text">
+
+                                        <div class="img">
+                                            <a href=""><img src="./assets/img/products2.png" alt=""></a>
+                                        </div>
+                                        <div class="texts">
+                                            <div class="text1">
+                                                <a href="">
+                                                    <p>Solo Headset</p>
+                                                </a>
+
+                                            </div>
+                                            <div class="icons">
+                                                <i class="fa-solid fa-star text-warning"></i>
+                                                <i class="fa-solid fa-star text-warning"></i>
+                                                <i class="fa-solid fa-star text-warning"></i>
+                                                <i class="fa-solid fa-star text-warning"></i>
+                                                <i class="fa-solid fa-star text-warning"></i>
+                                            </div>
+                                            <div class="text2">
+                                                <p>235.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="img-text">
+
+                                        <div class="img">
+                                            <a href=""><img src="./assets/img/products3.png" alt=""></a>
+                                        </div>
+                                        <div class="texts">
+                                            <div class="text1">
+                                                <a href="">
+                                                    <p>Ultra Whitte Wireless</p>
+                                                </a>
+                                            </div>
+                                            <div class="icons">
+                                                <i class="fa-solid fa-star text-warning"></i>
+                                                <i class="fa-solid fa-star text-warning"></i>
+                                                <i class="fa-solid fa-star text-warning"></i>
+                                                <i class="fa-solid fa-star text-warning"></i>
+                                                <i class="fa-solid fa-star text-warning"></i>
+                                            </div>
+                                            <div class="text2">
+                                                <p>350.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-4">
+                            <div class="carts">
+                                <div class="cart1">
+                                    <h4>Top Selling Products</h4>
+                                    <div class="img-text">
+
+                                        <div class="img">
+                                            <a href=""><img src="./assets/img/products4.png" alt=""></a>
+                                        </div>
+                                        <div class="texts">
+                                            <div class="text1">
+                                                <a href="">
+                                                    <p>Tablet Red 8500U 2TB</p>
+                                                </a>
+
+                                            </div>
+                                            <div class="icons">
+                                                <i class="fa-solid fa-star text-warning"></i>
+                                                <i class="fa-solid fa-star text-warning"></i>
+                                                <i class="fa-solid fa-star text-warning"></i>
+                                                <i class="fa-solid fa-star text-warning"></i>
+                                                <i class="fa-solid fa-star text-warning"></i>
+                                            </div>
+                                            <div class="text2">
+                                                <p>100.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="img-text">
+
+                                        <div class="img">
+                                            <a href=""><img src="./assets/img/products5.png" alt=""></a>
+                                        </div>
+                                        <div class="texts">
+                                            <div class="text1">
+                                                <a href="">
+                                                    <p>Ellite Pro Book 15'6 7500U</p>
+                                                </a>
+                                            </div>
+                                            <div class="icons">
+                                                <i class="fa-solid fa-star text-warning"></i>
+                                                <i class="fa-solid fa-star text-warning"></i>
+                                                <i class="fa-solid fa-star text-warning"></i>
+                                                <i class="fa-solid fa-star text-warning"></i>
+                                                <i class="fa-solid fa-star text-warning"></i>
+                                            </div>
+                                            <div class="text2">
+                                                <p>850.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="img-text">
+
+                                        <div class="img">
+                                            <a href=""><img src="./assets/img/products6.png" alt=""></a>
+                                        </div>
+                                        <div class="texts">
+                                            <div class="text1">
+                                                <a href="">
+                                                    <p>Tablet VX3000 Extra Light</p>
+                                                </a>
+                                            </div>
+                                            <div class="icons">
+                                                <i class="fa-solid fa-star text-warning"></i>
+                                                <i class="fa-solid fa-star text-warning"></i>
+                                                <i class="fa-solid fa-star text-warning"></i>
+                                                <i class="fa-solid fa-star text-warning"></i>
+                                                <i class="fa-solid fa-star text-warning"></i>
+                                            </div>
+                                            <div class="text2">
+                                                <p>850.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-4">
+                            <div class="carts">
+                                <div class="cart1">
+                                    <h4>Hot Offer</h4>
+                                    <div class="img-text">
+
+                                        <div class="img">
+                                            <a href=""><img src="./assets/img/products7.png" alt=""></a>
+                                        </div>
+                                        <div class="texts">
+                                            <div class="text1">
+                                                <a href="">
+                                                    <p>Tablet VX4000 8500 3TB</p>
+                                                </a>
+
+
+                                            </div>
+                                            <div class="icons">
+                                                <i class="fa-solid fa-star text-warning"></i>
+                                                <i class="fa-solid fa-star text-warning"></i>
+                                                <i class="fa-solid fa-star text-warning"></i>
+                                                <i class="fa-solid fa-star text-warning"></i>
+                                                <i class="fa-solid fa-star text-warning"></i>
+                                            </div>
+                                            <div class="text2">
+                                                <p>940.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="img-text">
+
+                                        <div class="img">
+                                            <a href=""><img src="./assets/img/products8.png" alt=""></a>
+                                        </div>
+                                        <div class="texts">
+                                            <div class="text1">
+                                                <a href="">
+                                                    <p>Laptop Sens 7200L</p>
+                                                </a>
+                                            </div>
+                                            <div class="icons">
+                                                <i class="fa-solid fa-star text-warning"></i>
+                                                <i class="fa-solid fa-star text-warning"></i>
+                                                <i class="fa-solid fa-star text-warning"></i>
+                                                <i class="fa-solid fa-star text-warning"></i>
+                                                <i class="fa-solid fa-star text-warning"></i>
+                                            </div>
+                                            <div class="text2">
+                                                <p>760.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="img-text">
+
+                                        <div class="img">
+                                            <a href=""><img src="./assets/img/products7.png" alt=""></a>
+
+                                        </div>
+                                        <div class="texts">
+                                            <div class="text1">
+                                                <a href="">
+                                                    <p>Laptop XS3000 WiFi Smart</p>
+                                                </a>
+                                            </div>
+                                            <div class="icons">
+                                                <i class="fa-solid fa-star text-warning"></i>
+                                                <i class="fa-solid fa-star text-warning"></i>
+                                                <i class="fa-solid fa-star text-warning"></i>
+                                                <i class="fa-solid fa-star text-warning"></i>
+                                                <i class="fa-solid fa-star text-warning"></i>
+                                            </div>
+                                            <div class="text2">
+                                                <p>1,200.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+        </div>
+
+
+
+
+
+
+
+
+    </main>
+
+
+

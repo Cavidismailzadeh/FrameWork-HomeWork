@@ -1,0 +1,325 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\HomeWork-Sophie-BackToFront.bundle.scp.css",
+      "PackagePath": "staticwebassets\\HomeWork-Sophie-BackToFront.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\img\\Products\\Main1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\Products\\Main1.png"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\img\\Products\\avatar-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\Products\\avatar-1.png"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\img\\Products\\avatar-2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\Products\\avatar-2.png"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\img\\Products\\avatar-3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\Products\\avatar-3.png"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\img\\Products\\headphone1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\Products\\headphone1.png"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\img\\Products\\headphone2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\Products\\headphone2.png"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\img\\Products\\headphone3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\Products\\headphone3.png"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\img\\Products\\headphone4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\Products\\headphone4.png"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\img\\Products\\headphone5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\Products\\headphone5.png"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\img\\about\\aboutUs.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\aboutUs.jpg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\img\\about\\t1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\t1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\img\\about\\t2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\t2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\img\\about\\t3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\t3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\img\\about\\t4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\t4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\img\\banner1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\banner1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\img\\banner2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\banner2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\img\\banner3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\banner3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\img\\banner4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\banner4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\img\\banner5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\banner5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\img\\blog\\b1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\b1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\img\\cameras.png",
+      "PackagePath": "staticwebassets\\assets\\img\\cameras.png"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\img\\england flag.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\england flag.svg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\img\\franch flag.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\franch flag.svg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\img\\germany flag.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\germany flag.svg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\img\\laptops.png",
+      "PackagePath": "staticwebassets\\assets\\img\\laptops.png"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\img\\logo-sophie.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo-sophie.png"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\img\\logo2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo2.png"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\img\\phoness.png",
+      "PackagePath": "staticwebassets\\assets\\img\\phoness.png"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\img\\products1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\products1.png"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\img\\products2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\products2.png"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\img\\products3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\products3.png"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\img\\products4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\products4.png"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\img\\products5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\products5.png"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\img\\products6.png",
+      "PackagePath": "staticwebassets\\assets\\img\\products6.png"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\img\\products7.png",
+      "PackagePath": "staticwebassets\\assets\\img\\products7.png"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\img\\products8.png",
+      "PackagePath": "staticwebassets\\assets\\img\\products8.png"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\img\\russian flag.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\russian flag.svg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\img\\tablets.png",
+      "PackagePath": "staticwebassets\\assets\\img\\tablets.png"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\img\\turkey flag.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\turkey flag.svg"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\js\\about.js",
+      "PackagePath": "staticwebassets\\assets\\js\\about.js"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\js\\account.js",
+      "PackagePath": "staticwebassets\\assets\\js\\account.js"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\js\\blog.js",
+      "PackagePath": "staticwebassets\\assets\\js\\blog.js"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\js\\cart.js",
+      "PackagePath": "staticwebassets\\assets\\js\\cart.js"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\js\\checkout.js",
+      "PackagePath": "staticwebassets\\assets\\js\\checkout.js"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\js\\contact.js",
+      "PackagePath": "staticwebassets\\assets\\js\\contact.js"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\js\\home.js",
+      "PackagePath": "staticwebassets\\assets\\js\\home.js"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\js\\products.js",
+      "PackagePath": "staticwebassets\\assets\\js\\products.js"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\js\\wishlist.js",
+      "PackagePath": "staticwebassets\\assets\\js\\wishlist.js"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\scss\\about.css",
+      "PackagePath": "staticwebassets\\assets\\scss\\about.css"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\scss\\about.css.map",
+      "PackagePath": "staticwebassets\\assets\\scss\\about.css.map"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\scss\\about.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\about.scss"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\scss\\account.css",
+      "PackagePath": "staticwebassets\\assets\\scss\\account.css"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\scss\\account.css.map",
+      "PackagePath": "staticwebassets\\assets\\scss\\account.css.map"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\scss\\account.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\account.scss"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\scss\\blog.css",
+      "PackagePath": "staticwebassets\\assets\\scss\\blog.css"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\scss\\blog.css.map",
+      "PackagePath": "staticwebassets\\assets\\scss\\blog.css.map"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\scss\\blog.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\blog.scss"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\scss\\cart.css",
+      "PackagePath": "staticwebassets\\assets\\scss\\cart.css"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\scss\\cart.css.map",
+      "PackagePath": "staticwebassets\\assets\\scss\\cart.css.map"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\scss\\cart.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\cart.scss"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\scss\\chechkout.css",
+      "PackagePath": "staticwebassets\\assets\\scss\\chechkout.css"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\scss\\chechkout.css.map",
+      "PackagePath": "staticwebassets\\assets\\scss\\chechkout.css.map"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\scss\\chechkout.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\chechkout.scss"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\scss\\contact.css",
+      "PackagePath": "staticwebassets\\assets\\scss\\contact.css"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\scss\\contact.css.map",
+      "PackagePath": "staticwebassets\\assets\\scss\\contact.css.map"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\scss\\contact.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\contact.scss"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\scss\\home.css",
+      "PackagePath": "staticwebassets\\assets\\scss\\home.css"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\scss\\home.css.map",
+      "PackagePath": "staticwebassets\\assets\\scss\\home.css.map"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\scss\\home.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\home.scss"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\scss\\products.css",
+      "PackagePath": "staticwebassets\\assets\\scss\\products.css"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\scss\\products.css.map",
+      "PackagePath": "staticwebassets\\assets\\scss\\products.css.map"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\scss\\products.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\products.scss"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\scss\\wishlist.css",
+      "PackagePath": "staticwebassets\\assets\\scss\\wishlist.css"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\scss\\wishlist.css.map",
+      "PackagePath": "staticwebassets\\assets\\scss\\wishlist.css.map"
+    },
+    {
+      "Id": "C:\\Users\\javidai\\Desktop\\HomeWork\\HomeWork-Sophie-BackToFront\\HomeWork-Sophie-BackToFront\\wwwroot\\assets\\scss\\wishlist.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\wishlist.scss"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.HomeWork-Sophie-BackToFront.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.HomeWork-Sophie-BackToFront.props",
+      "PackagePath": "build\\HomeWork-Sophie-BackToFront.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.HomeWork-Sophie-BackToFront.props",
+      "PackagePath": "buildMultiTargeting\\HomeWork-Sophie-BackToFront.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.HomeWork-Sophie-BackToFront.props",
+      "PackagePath": "buildTransitive\\HomeWork-Sophie-BackToFront.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
